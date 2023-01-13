@@ -1,0 +1,39 @@
+body{
+	font-family: sans-serif;
+	font-size: 11pt;
+	background-image: url("immage/sa26.jpg");
+	background-size: cover;
+	
+}
+table,th,td
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	opacity: 0.95;
+}
+th,td
+{
+	padding: 10px;
+	text-align: center;
+}
+th
+{
+	background-color: #22313F;
+	color: white;
+}
+tr:nth-child(even)
+{
+	background-color: #e8e8e8;
+}
+tr:nth-child(odd)
+{
+	background-color: white;
+}
+table
+{width: 80%;
+}
+#header
+{
+	background-color: #005cb7;
+	color: white;
+}

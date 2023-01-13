@@ -1,0 +1,114 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+.sagor
+{
+	background-image:url("immage/sag22.jpg");
+	background-size:cover;
+	width:50%;
+	height:100vh;
+	float:left;
+}
+.sagor1
+{
+	background-color:rgba(0,0,0,0.3);
+	width:100%;
+	height:100vh;
+	border:2px solid black;
+}
+.sagor2
+{
+	background-color:rgba(0,0,0,0.5);
+	width:600px;
+	height:800px;
+	border-radius:10px;
+	margin-left:40px;
+    border:1px solid rgba(255,255,255,0.5);
+	box-shadow:0 0 25px rgba(0,0,0,0.5);
+}
+.sagor2 h2
+{
+	text-align: center;
+	color:white;
+	font-weight:bold;
+	font-size:30px;
+	font-family:Baskerville Old Face;
+}
+.sagor2 ul
+{
+ margin-top:10px;
+ margin-left:5px;
+}
+.sagor2 ul li
+{
+	list-style:none;
+	color:white;
+	font-family:Californian FB;
+	letter-spacing:1.5px;
+}
+.sagor2 ul li a
+{
+	text-decoration:none;
+	color:white;
+}
+.sagor2 ul li a:hover
+{
+	color:cyan;
+}
+.tauhid
+{
+	background-image:url("immage/tauhid.jpg");
+	background-size:cover;
+	width:50%;
+	height:100vh;
+	float:right;
+}
+.tauhid1
+{
+	background-color:rgba(0,0,0,0.3);
+	width:100%;
+	height:100vh;
+	border:2px solid black;
+}
+.tauhid2
+{
+	background-color:rgba(0,0,0,0.5);
+	width:600px;
+	height:800px;
+	border-radius:10px;
+	margin-left:40px;
+    border:1px solid rgba(255,255,255,0.5);
+	box-shadow:0 0 25px rgba(0,0,0,0.5);
+}
+.tauhid2 h2
+{
+	text-align: center;
+	color:white;
+	font-weight:bold;
+	font-size:30px;
+	font-family:Baskerville Old Face;
+}
+.tauhid2 ul
+{
+ margin-top:10px;
+ margin-left:5px;
+}
+.tauhid2 ul li
+{
+	list-style:none;
+	color:white;
+	font-family:Californian FB;
+	letter-spacing:1.5px;
+}
+.tauhid2 ul li a
+{
+	text-decoration:none;
+	color:white;
+}
+.tauhid2 ul li a:hover
+{
+	color:cyan;
+}
+

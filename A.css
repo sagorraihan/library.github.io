@@ -1,0 +1,47 @@
+*
+{
+ margin:0px;
+ padding:0px;
+}
+.menu ul
+{
+ 
+}
+.menu ul li
+{
+ list-style:none;
+ background-color:red;
+ border:1px solid white;
+ width:120px;
+ height:35px;
+ float:left;
+ text-align:center;
+ line-height:35px;
+ position:relative;
+ border-radius:15px;
+}
+.menu ul li a
+{
+ text-decoration:none;
+ color:white;
+ display:block;
+  border-radius:15px;
+}
+.menu ul li a:hover
+{
+ background-color:green;
+}
+.menu ul ul
+{
+ position:absolute;
+ display:none;
+}
+.menu ul li:hover > ul
+{
+ display:block;
+}
+.menu ul ul ul
+{
+ margin-left:120px;
+ top:0px;
+}

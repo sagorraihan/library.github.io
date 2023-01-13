@@ -1,0 +1,56 @@
+body
+{
+	background-image: url("immage/sa15.jpg");
+	background-size: cover;
+
+}
+
+#manu  {
+	margin: 7px;
+	padding:7px;
+}
+#menu ul{
+	list-style: none;
+
+}
+#menu ul li
+{
+
+background-color: black;
+border: 0.5px solid white;
+width: 135px;
+height: 35px;
+line-height: 35px;
+text-align: center;
+float: left;
+position: relative;
+border-radius: 10px;
+}
+#menu ul li a
+{
+text-decoration: none;
+font-family:Californian FB;
+font-weight:bold;
+color: white;
+display: block;
+}
+#menu ul li a:hover
+{
+background-color: #22313F;
+border-radius: 10px;
+}
+#menu ul ul
+{
+padding: 4px;
+position: absolute;
+display: none;
+}
+#menu ul li:hover > ul
+{
+display: block;
+}
+#menu ul ul ul
+{
+	margin-left: 135px;
+	top: 0px;
+}
